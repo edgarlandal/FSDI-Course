@@ -60,6 +60,9 @@ p{
 }
 /* header */
 .site-init{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-image:url(../img/banner.jpg);
     background-position: center center;
     text-align: center;
@@ -98,7 +101,13 @@ p.subtitle{
 
 .menu a{
     color: white;
+    text-decoration: none;
 }
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;}
 
 /* blog */
 .blog{
@@ -111,6 +120,13 @@ p.subtitle{
 }
 
 .div-horizontal {
-    flex: 5; /* Opcionalmente, establece un valor para ajustar el tamaño de cada div */
-    padding: 50px;
+    flex: 1; /* Opcionalmente, establece un valor para ajustar el tamaño de cada div */
+    margin-left: 50px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
 }

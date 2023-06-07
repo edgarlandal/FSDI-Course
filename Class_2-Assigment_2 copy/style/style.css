@@ -1,0 +1,132 @@
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+
+p{
+    line-height: 1.5;
+}
+/* utilities */
+.title{
+    font-size: 700;
+}
+
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    display: block;
+    background-color: black;
+    width: 150px;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn2{
+    display: block;
+    background-color: rgb(120, 62, 42);
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* header */
+.site-init{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image:url(../img/banner.jpg);
+    background-position: center center;
+    text-align: center;
+    margin: 0;
+    background-size: cover;
+    height: 350px;
+}
+
+.site-init h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.site-init h2{
+    color: white;
+}
+
+.site-init p{
+    color: white;
+    text-align: center;
+}
+
+p.subtitle{
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* navigation */
+.menu{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;}
+
+/* blog */
+.blog{
+    border-bottom: 1px solid rgb(165, 165, 165);
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.div-horizontal {
+    flex: 1; /* Opcionalmente, establece un valor para ajustar el tamaño de cada div */
+    margin-left: 50px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+}
